@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="FirstBlock is a local NFT mint sniper for SeaDrop, signed mints, multi-RPC broadcast, and manual gas control."
+    />
+    <title>FirstBlock - NFT Mint Sniper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <div class="radar" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <i></i>
+        </div>
+
+        <nav class="nav">
+          <a class="brand" href="#top" aria-label="FirstBlock home">
+            <span class="brand-mark">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 5v9M24 34v9M5 24h9M34 24h9" />
+                <circle cx="24" cy="24" r="13" />
+                <path d="m24 16 8 4.5v9L24 34l-8-4.5v-9L24 16Z" />
+                <path d="M16 20.5 24 25l8-4.5M24 25v9" />
+              </svg>
+            </span>
+            <span>FirstBlock</span>
+          </a>
+          <div class="nav-actions">
+            <a href="#plans">Plans</a>
+            <a href="#safety">Safety</a>
+            <a class="button ghost" href="https://discord.com/users/1182340601778274387">Discord</a>
+          </div>
+        </nav>
+
+        <div id="top" class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Local NFT mint sniper</p>
+            <h1>First-block timing for fast SeaDrop mints.</h1>
+            <p class="lede">
+              FirstBlock runs locally on your machine with OpenSea AUTO transaction fetching,
+              multi-RPC broadcast, manual gas control, and license-based access.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#plans">Choose a plan</a>
+              <a class="button secondary" href="#how-it-works">How it works</a>
+            </div>
+            <div class="proof-strip" aria-label="Product capabilities">
+              <span>SeaDrop</span>
+              <span>Signed Mint</span>
+              <span>Multi-RPC</span>
+              <span>Gas Control</span>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <img src="./assets/firstblock-app-preview.jpg" alt="FirstBlock app dashboard preview" />
+          </div>
+        </div>
+      </section>
+
+      <section id="plans" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Access plans</p>
+          <h2>Pick the window you need.</h2>
+          <p>Pay in USDC, send the transaction hash on Discord, and receive your license key.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <div class="plan-icon">24h</div>
+            <h3>1 Day</h3>
+            <div class="price"><strong>8</strong><span>USDC</span></div>
+            <p>Best for a single drop or a quick test run.</p>
+            <a class="button card-button" href="https://discord.com/users/1182340601778274387" target="_blank" rel="noopener noreferrer">Buy 1 Day</a>
+          </article>
+
+          <article class="price-card featured">
+            <div class="badge">Most Popular</div>
+            <div class="plan-icon">7d</div>
+            <h3>1 Week</h3>
+            <div class="price"><strong>29</strong><span>USDC</span></div>
+            <p>Best for active minters watching multiple drops.</p>
+            <a class="button card-button" href="https://discord.com/users/1182340601778274387" target="_blank" rel="noopener noreferrer">Buy 1 Week</a>
+          </article>
+
+          <article class="price-card">
+            <div class="plan-icon">30d</div>
+            <h3>1 Month</h3>
+            <div class="price"><strong>69</strong><span>USDC</span></div>
+            <p>Best for consistent minting and longer campaigns.</p>
+            <a class="button card-button" href="https://discord.com/users/1182340601778274387" target="_blank" rel="noopener noreferrer">Buy 1 Month</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section split">
+        <div>
+          <p class="eyebrow">How it works</p>
+          <h2>Manual payment, local execution.</h2>
+          <p class="section-copy">
+            FirstBlock is distributed as a local desktop app. You keep control of the burner wallet,
+            OpenSea API key, and RPC endpoint. The license only unlocks access.
+          </p>
+        </div>
+        <div class="steps">
+          <div><span>1</span>Choose a plan and contact Discord.</div>
+          <div><span>2</span>Pay in USDC and send the transaction hash.</div>
+          <div><span>3</span>Receive a license key for your selected duration.</div>
+          <div><span>4</span>Run the app locally with a burner wallet only.</div>
+        </div>
+      </section>
+
+      <section id="safety" class="section safety">
+        <div class="warning">
+          <p class="eyebrow">Wallet safety</p>
+          <h2>Use burner wallets only.</h2>
+          <p>
+            Never use your main wallet. FirstBlock is built for local execution, but NFT minting is risky.
+            Keep only the amount needed for gas and mint price in the wallet you use.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <div><strong>Local app</strong><span>The bot runs on your machine.</span></div>
+          <div><strong>Encrypted vault</strong><span>Private key storage is local and encrypted.</span></div>
+          <div><strong>No guarantee</strong><span>Fast setup improves timing, but cannot guarantee allocation.</span></div>
+          <div><strong>You control RPC</strong><span>Use your own Alchemy, QuickNode, or public RPC.</span></div>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Before you buy.</h2>
+        </div>
+        <details open>
+          <summary>Does FirstBlock guarantee a mint?</summary>
+          <p>No. Supply, gas, RPC speed, OpenSea availability, and contract rules can still make a mint fail.</p>
+        </details>
+        <details>
+          <summary>Do I need an OpenSea API key?</summary>
+          <p>Yes for the AUTO SeaDrop flow. The app uses it to request transaction data from OpenSea.</p>
+        </details>
+        <details>
+          <summary>Should I use my main wallet?</summary>
+          <p>No. Use a burner wallet only.</p>
+        </details>
+      </section>
+
+      <footer class="footer">
+        <span>FirstBlock</span>
+        <a href="https://discord.com/users/1182340601778274387">Contact on Discord</a>
+      </footer>
+    </main>
+  </body>
+</html>
